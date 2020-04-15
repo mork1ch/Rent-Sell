@@ -39,7 +39,7 @@ header div{
 header .button_f1{float: right;}
 .button_f1 a{
      color: #000;
-     padding: 17px 53px;
+     padding: 17px 44px;
      border: 3px solid #FFC445;
      font-size: 23px;
      transition: 0.5s ease;
@@ -258,15 +258,15 @@ header .button_f1{float: right;}
     margin-bottom: 236px;
 }
 
-.center {
+.block3 .center {
     width: 300px;
     margin: 0 auto 91px;
     text-align: center;
 }
-.logo{
+.block3 .logo{
     font-size: 55px;
 }
-.center .sec p{
+.block3 .center .sec p{
     width: 200px;
     margin: 0 auto;
     font-size: 30px;
@@ -444,4 +444,77 @@ header .button_f1{float: right;}
 }
 .slider .home4{
     background-image: url(/img/6.png);
+}
+
+/* div map + forma */
+.mapShadow{
+    height: 707px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.map .er {
+    width: 636px;
+    height: 707px;
+    background-color: #fff;
+}
+.map .left h3{
+    margin: 56px 0 49px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.map .left .input input{
+    width: 335px;
+    height: 52px;
+    margin-bottom: 25px;
+    display: block;
+}
+.map .left .input{margin-bottom: 60px;}
+.map .left ::-webkit-input-placeholder{padding-left: 20px;font-size: 16px;}
+.map .left .form{margin: 0 0 0 50px;}
+.map .left .button_f1{margin-bottom: 40px;}
+.map .left .line{display: inline-block;}
+
+.map .soc{
+    width: 100% -24px;
+    min-height: 100px;
+    margin: 105px 50px 24px 50px;
+    font-size: 20px;
+}
+.map .soc img{
+    width: 23px;
+}
+.map .soc p{margin-bottom: 21px;}
+.map .soc p:last-child{margin: 0;}
+/* footer */
+footer{
+    width: 100%;
+    height: 330px;
+    background: #343333;
+    margin-top: -165px;
+}
+footer .content{
+    margin: 0 auto;
+    padding-top: 150px;
+    color: #fff;
+}
+footer .content a{color: #fff}
+footer .content .left{font-size: 15px;}
+footer .content .left .logo{font-size: 22px;}
+footer .content .left .soc{margin-top: 34px;}
+footer .content .left .soc img{margin-right: 22px;}
+footer .content .center{
+    width: 50px;
+    text-align: left;
+    margin-left: 45%;
+    font-size: 18px;
+}
+footer .content .center li{
+    margin-bottom: 8px;
+}footer .content .center li:last-child {
+    margin-bottom: 0px;
+}
+footer .content .right{
+    margin-top: -70px;
+}
+footer .content .right p:first-child{
+    margin-bottom: 39px;
 }
