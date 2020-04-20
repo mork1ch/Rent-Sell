@@ -463,7 +463,7 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer1 div{
-    width: 748px
+    width: 902px;
 }
 #hide_galer1 img{
     margin:0 -5px -6px 0;
@@ -472,11 +472,11 @@ header .button_f1{float: right;}
     display: none;
 }
 #hide_galer1 .up img{
-    width: 250px;
+    width: 301.5px;
     height: 214px;
 }
 #hide_galer1 .low img{
-    width: 187.5px;
+    width: 225.5px;
     height: 160px;
 }
 
@@ -488,7 +488,7 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer2 div{
-    width: 748px
+    width: 852px;
 }
 #hide_galer2 img{
     margin:0 -5px -6px 0;
@@ -497,12 +497,12 @@ header .button_f1{float: right;}
     display: none;
 }
 #hide_galer2 .up img{
-    width: 250px;
-    height: 214px;
+    width: 213px;
+    height: 187px;
 }
 #hide_galer2 .low img{
-    width: 187.5px;
-    height: 160px;
+    width: 213px;
+    height: 187px;
 }
 /* 3 */
 #minus3{
@@ -512,7 +512,7 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer3 div{
-    width: 748px
+    width: 902px;
 }
 #hide_galer3 img{
     margin:0 -5px -6px 0;
@@ -536,7 +536,7 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer4 div{
-    width: 748px
+    width: 852px
 }
 #hide_galer4 img{
     margin:0 -5px -6px 0;
