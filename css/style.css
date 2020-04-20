@@ -31,6 +31,7 @@ header div{
 
 .menu{
     margin-left: 30%;
+    font-family: Open Sans;
 }
 .menu li{
     display: inline;
@@ -48,7 +49,8 @@ header .button_f1{float: right;}
      border: 3px solid #FFC445;
      font-size: 23px;
      transition: 0.5s ease;
-}
+     font-family: Montserrat;
+    }
 .zvbutton_f1on a:hover{
     border: solid #E1B453;
 }
@@ -63,9 +65,9 @@ header .button_f1{float: right;}
 }
 
 .text h1{
-    width: 350px;
+    width: 380px;
     height: 122px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans;
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 57px;
@@ -76,13 +78,15 @@ header .button_f1{float: right;}
     font-size: 16px;
     padding-left: 19px;
     margin-bottom: 93px;
+    font-family: Montserrat;
 }
 .button_f2{
-    width: 301px;
+    width: 345px;
     background-color: #FFC445;
     text-align: center;
     padding: 17px 0;
     margin-bottom: 94px;
+    font-family: Montserrat;
 }
 .button_f2 a{
     padding: 17px 55px;
@@ -110,14 +114,13 @@ header .button_f1{float: right;}
     font-size: 15px;
     font-weight: 800;
     display: inline;
+    font-family: Open Sans;
 }
 .odobrino p{
     width: 80px;
     font-size: 12px;
     text-align: left;
-}
-.hello .clearfix{
-    
+    font-family: Montserrat;
 }
 
 /* contact */
@@ -125,6 +128,8 @@ header .button_f1{float: right;}
 .contacts{
     width: 100%;
     margin-bottom: 169px;
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, 0.35);
 }
 .contacts div{
     display: inline-block;
@@ -152,6 +157,7 @@ header .button_f1{float: right;}
     border-left: 13px solid #ffc445;
     padding-left: 19px;
     margin-bottom: 173px;
+    font-family: Open Sans;
 }
 .block2 .left .img{
     width: 335px;
@@ -231,24 +237,30 @@ header .button_f1{float: right;}
     width: 629px;
 }
 .block2 .right h3{
-    width: 350px;
+    width: 404px;
     font-size: 35px;
     margin-bottom: 5px;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 .block2 .right h5{
     font-size: 20px;
     margin-bottom: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
 }
 .block2 .right p{
     width: 550px;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 27px;
+    font-family: Montserrat;
 }
 .block2 .right li{
     color: #FFC445;
     margin-bottom: 26px;
     font-size: 25px;
+    font-family: Montserrat;
 }
 .block2 .right span{
     color: #000;
@@ -256,6 +268,10 @@ header .button_f1{float: right;}
 }
 .block2 .right ul{
     margin-bottom: 62px;
+}
+.block2 .right .button_f1 a{
+    padding: 17px 81px;
+    margin-left: -25px;
 }
 
 /* block 3 */
@@ -270,19 +286,23 @@ header .button_f1{float: right;}
 }
 .block3 .logo{
     font-size: 55px;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 .block3 .center .sec p{
     width: 200px;
     margin: 0 auto;
     font-size: 30px;
     border-top: 13px solid #FFC445;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 
 .block3 .con div{
     display: inline-block;
 }
 .block3 .con div:first-child{
-    margin-right: 350px;
+    margin-right: 250px;
 }
 .block3 .con div:last-child{
     float: right;
@@ -292,24 +312,36 @@ header .button_f1{float: right;}
     text-align: left;
     font-size: 42px;
     color: #FFC445;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 .block3 .con .cifr h2{
+    text-align: center;
     font-size: 165px;
     padding-bottom: 22px;
     border-bottom: 13px solid #FFC445;
+    font-family: Open Sans;
+    font-weight: 600;
 }
 .block3 .con .cifr h4{
     text-align: center;
     font-size: 30px;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 .block3 .con .cifr .sec{
+    margin-left: 20px;
     text-align: center;
     font-size: 16px;
+    font-family: Montserrat;
+}
+.block3 .con .firste .first{
+    margin-left: 30px;
 }
 .block3 .con .firste .sec{
     width: 180px;
+    margin-left: 30px;
 }
-
 /* block 4 */
 
 .block4{
@@ -327,11 +359,14 @@ header .button_f1{float: right;}
 .zaglav .fir{
     font-size: 30px;
     margin-right: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
 }
 .zaglav .sec{
     font-size: 25px;
     padding-left: 16px;
     border-left: 13px solid #FFC445;
+    font-family: Open Sans;
 }
 
 /* slider 2 */
@@ -339,6 +374,7 @@ header .button_f1{float: right;}
 .slider {
     position: relative;
     overflow: hidden;
+    font-family: Montserrat;
   }
 
   .slider__wrapper {
@@ -350,6 +386,7 @@ header .button_f1{float: right;}
     flex: 0 0 31%;
     width: 31%;
     margin-right: 50px;
+    transition: 0.5s ease;
   }
   .slider__item:last-child{margin: 0;}
 
@@ -466,7 +503,7 @@ header .button_f1{float: right;}
     width: 902px;
 }
 #hide_galer1 img{
-    margin:0 -5px -6px 0;
+    margin:0 -5px -5px 0;
 }
 #hide_galer1{
     display: none;
@@ -488,20 +525,20 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer2 div{
-    width: 852px;
+    width: 902px;
 }
 #hide_galer2 img{
-    margin:0 -5px -6px 0;
+    margin:0 -5px -5px 0;
 }
 #hide_galer2{
     display: none;
 }
 #hide_galer2 .up img{
-    width: 213px;
+    width: 226.4px;
     height: 187px;
 }
 #hide_galer2 .low img{
-    width: 213px;
+    width: 226.4px;
     height: 187px;
 }
 /* 3 */
@@ -512,21 +549,27 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer3 div{
-    width: 902px;
+    width: 902px; 
 }
 #hide_galer3 img{
-    margin:0 -5px -6px 0;
+    margin:0 -5px -5px 0;
 }
 #hide_galer3{
     display: none;
 }
 #hide_galer3 .up img{
-    width: 250px;
-    height: 214px;
+    width: 262.5px;
+    height: 187px;
+}
+#hide_galer3 .up img:first-child{
+    width: 119px;
 }
 #hide_galer3 .low img{
-    width: 187.5px;
-    height: 160px;
+    width: 261.2px;
+    height: 187px;
+}
+#hide_galer3 .low img:first-child{
+    width: 123px;
 }
 /* 4 */
 #minus4{
@@ -536,23 +579,28 @@ header .button_f1{float: right;}
     height: 250px;
 }
 #hide_galer4 div{
-    width: 852px
+    width: 902px;
 }
 #hide_galer4 img{
-    margin:0 -5px -6px 0;
+    margin:0 -5px -5px 0;
 }
 #hide_galer4{
     display: none;
 }
+#hide_galer4 .up img:last-child{
+    width: 442px;
+}
 #hide_galer4 .up img{
-    width: 250px;
-    height: 214px;
+    width: 231.3px;
+    height: 187px;
 }
 #hide_galer4 .low img{
-    width: 187.5px;
-    height: 160px;
+    width: 193.8px;
+    height: 187px;
 }
-
+#hide_galer4 .low img:first-child{
+    width: 325px;
+}
 /* div map + forma */
 .mapShadow{
     height: 707px;
@@ -567,12 +615,14 @@ header .button_f1{float: right;}
     margin: 56px 0 49px 0;
     font-size: 30px;
     font-weight: bold;
+    font-family: Open Sans;
 }
 .map .left .input input{
     width: 335px;
     height: 52px;
     margin-bottom: 25px;
     display: block;
+    font-family: Montserrat;
 }
 .map .left .input{margin-bottom: 60px;}
 .map .left ::-webkit-input-placeholder{padding-left: 20px;font-size: 16px;}
@@ -587,6 +637,11 @@ header .button_f1{float: right;}
     background-color: #fff;
 }
 .map .left .line{display: inline-block;}
+.map .left .line span{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Montserrat;
+}
 
 .map .soc{
     width: 100% -24px;
@@ -597,7 +652,11 @@ header .button_f1{float: right;}
 .map .soc img{
     width: 23px;
 }
-.map .soc p{margin-bottom: 21px;}
+.map .soc p{
+    margin-bottom: 21px;
+    font-family: Montserrat;
+    font-weight: normal;
+}
 .map .soc p:last-child{margin: 0;}
 /* footer */
 footer{
@@ -612,7 +671,7 @@ footer .content{
     color: #fff;
 }
 footer .content a{color: #fff}
-footer .content .left{font-size: 15px;}
+footer .content .left{font-size: 15px;font-family: Open Sans;}
 footer .content .left .logo{font-size: 22px;}
 footer .content .left .soc{margin-top: 34px;}
 footer .content .left .soc img{margin-right: 22px;}
@@ -624,12 +683,46 @@ footer .content .center{
 }
 footer .content .center li{
     margin-bottom: 8px;
+    font-family: Open Sans;
 }footer .content .center li:last-child {
     margin-bottom: 0px;
 }
 footer .content .right{
     margin-top: -70px;
+    font-family: Montserrat;
+    text-align: right;
 }
-footer .content .right p:first-child{
-    margin-bottom: 39px;
+footer .content .right span{
+    margin-left: 10px;
 }
+    footer .content .right p:first-child{
+    margin-bottom: 20px;
+}
+
+
+
+/* Подключаю шрифты */
+@font-face {
+    font-family: "Open Sans"; 
+    src: url("/fonts/opensans.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Open Sans"; 
+    src: url("/fonts/opensansbold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+    } 
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("/fonts/Montserrat-Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("/fonts/montserrat.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+    } 

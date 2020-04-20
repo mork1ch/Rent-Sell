@@ -266,13 +266,13 @@ var multiItemSlider = (function () {
 //   делаю галерею на полюс на втором слайдере
 
 function galerei_open1(){
-	document.getElementById("hide_galer1").setAttribute("style", "display: inline-block; margin-right: 200px");
+	document.getElementById("hide_galer1").setAttribute("style", "display: inline-block; margin-right: 200px; opacity: 1");
 	document.getElementById("plus1").setAttribute("style", "display: none");
 	document.getElementById("minus1").setAttribute("style", "display: block; padding-top: -380px;");
 	document.getElementById("home1").setAttribute("style", "margin-right: 0px");
 }
 function galerei_close1(){
-	document.getElementById("hide_galer1").setAttribute("style", "display: none");
+	document.getElementById("hide_galer1").setAttribute("style", "display: none;  opacity: 0");
 	document.getElementById("minus1").setAttribute("style", "display: none");
 	document.getElementById("plus1").setAttribute("style", "display: block");
 	document.getElementById("home1").setAttribute("style", "margin-right: 50px");
@@ -282,6 +282,7 @@ function galerei_open2(){
 	document.getElementById("hide_galer2").setAttribute("style", "display: inline-block; margin-right: 200px");
 	document.getElementById("plus2").setAttribute("style", "display: none");
 	document.getElementById("minus2").setAttribute("style", "display: block; padding-top: -380px;");
+	document.getElementById("home2").setAttribute("style", "margin-right: 0px");
 	document.getElementById("home1").setAttribute("style", "display: none");
 }
 function galerei_close2(){
