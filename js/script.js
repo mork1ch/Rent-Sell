@@ -172,6 +172,8 @@ Sim.initialize = function(that) {
 
 new Sim();
 
+// Второй слайдер
+
 var multiItemSlider = (function () {
 	return function (selector, config) {
 	  var
@@ -259,3 +261,65 @@ var multiItemSlider = (function () {
   }());
 
   var slider = multiItemSlider('.slider')
+
+
+//   делаю галерею на полюс на втором слайдере
+
+function galerei_open1(){
+	document.getElementById("hide_galer1").setAttribute("style", "display: inline-block; margin-right: 200px");
+	document.getElementById("plus1").setAttribute("style", "display: none");
+	document.getElementById("minus1").setAttribute("style", "display: block; padding-top: -380px;");
+	document.getElementById("home1").setAttribute("style", "margin-right: 0px");
+}
+function galerei_close1(){
+	document.getElementById("hide_galer1").setAttribute("style", "display: none");
+	document.getElementById("minus1").setAttribute("style", "display: none");
+	document.getElementById("plus1").setAttribute("style", "display: block");
+	document.getElementById("home1").setAttribute("style", "margin-right: 50px");
+}
+
+function galerei_open2(){
+	document.getElementById("hide_galer2").setAttribute("style", "display: inline-block; margin-right: 200px");
+	document.getElementById("plus2").setAttribute("style", "display: none");
+	document.getElementById("minus2").setAttribute("style", "display: block; padding-top: -380px;");
+	document.getElementById("home1").setAttribute("style", "display: none");
+}
+function galerei_close2(){
+	document.getElementById("hide_galer2").setAttribute("style", "display: none");
+	document.getElementById("minus2").setAttribute("style", "display: none");
+	document.getElementById("plus2").setAttribute("style", "display: block");
+	document.getElementById("home2").setAttribute("style", "margin-right: 50px");
+	document.getElementById("home1").setAttribute("style", "display: block");
+}
+
+function galerei_open3(){
+	document.getElementById("hide_galer3").setAttribute("style", "display: inline-block; margin-right: 200px");
+	document.getElementById("plus3").setAttribute("style", "display: none");
+	document.getElementById("minus3").setAttribute("style", "display: block; padding-top: -380px;");
+	document.getElementById("home3").setAttribute("style", "margin-right: 0px");
+	document.getElementById("home2").setAttribute("style", "display: none");
+}
+function galerei_close3(){
+	document.getElementById("hide_galer3").setAttribute("style", "display: none");
+	document.getElementById("minus3").setAttribute("style", "display: none");
+	document.getElementById("plus3").setAttribute("style", "display: block");
+	document.getElementById("home3").setAttribute("style", "margin-right: 50px");
+	document.getElementById("home2").setAttribute("style", "display: block");
+}
+
+function galerei_open4(){
+	document.getElementById("hide_galer4").setAttribute("style", "display: inline-block; margin-right: 200px");
+	document.getElementById("plus4").setAttribute("style", "display: none");
+	document.getElementById("minus4").setAttribute("style", "display: block; padding-top: -380px;");
+	document.getElementById("home4").setAttribute("style", "margin-right: 0px");
+	document.getElementById("home2").setAttribute("style", "display: none");
+	document.getElementById("home3").setAttribute("style", "display: none");
+}
+function galerei_close4(){
+	document.getElementById("hide_galer4").setAttribute("style", "display: none");
+	document.getElementById("minus4").setAttribute("style", "display: none");
+	document.getElementById("plus4").setAttribute("style", "display: block");
+	document.getElementById("home4").setAttribute("style", "margin-right: 50px");
+	document.getElementById("home2").setAttribute("style", "display: block");
+	document.getElementById("home3").setAttribute("style", "display: block");
+}
