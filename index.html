@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Rent&Sell</title>
 </head>
 
@@ -14,7 +16,7 @@
 
         <header>
 
-            <div class="logo">Rent&Sell</div><!-- Вставить img -->
+            <div class="logo"><div class="logo">Arche<span style="color: #FFC445;">Stroy</span></div></div><!-- Вставить img -->
 
             <div class="menu">
                 <ul>
@@ -100,14 +102,14 @@
 
         <div class="block2">
 
-            <h2>RENT<span style="color: #FFC445;">&</span>SALE - это не просто продавец недвижимости, но и отличный строитель</h2>
+            <h2>Arche<span style="color: #FFC445;">Stroy</span> - это не просто продавец недвижимости, но и отличный
+                строитель</h2>
 
             <div class="left">
 
                 <div class="img">
                     <div class="sim-slider">
                         <ul class="sim-slider-list">
-                            <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li>
                             <li class="sim-slider-element"><img src="img/5.png" alt="0"></li>
                             <li class="sim-slider-element"><img src="img/3.png" alt="1"></li>
                             <li class="sim-slider-element"><img src="img/4.png" alt="2"></li>
@@ -201,7 +203,7 @@
                                 <p><img src="img/Price.svg" alt="">от 2 500 000 ₽</p>
                                 <p id="plus1" onclick="galerei_open1()" class="right">+</p>
                                 <p id="minus1" onclick="galerei_close1()" class="right">-</p>
-                                
+
                             </div>
 
                             <div class="left">
@@ -219,14 +221,17 @@
                                     <li>сан. узел совмещенный</li>
                                 </ul>
                             </div>
-                            
+
                             <div class="clearfix" style="margin-bottom: 18px;"></div>
-                            <div class="adress"><p>Адресс: г. Белореченск, ул. Ленина, дом 22</p></div>
+                            <div class="adress">
+                                <p>Адресс: г. Белореченск, ул. Ленина, дом 22</p>
+                            </div>
                         </div>
 
                         <div id="hide_galer1">
                             <div class="up">
-                                <img src="img/galer1/11.png" alt="">
+                                <a href="img/galer1/11.png" class="lightzoom"><img src="img/galer1/11.png" /></a>
+                                <!-- <img src="img/galer1/11.png" alt=""> -->
                                 <img src="img/galer1/12.png" alt="">
                                 <img src="img/galer1/13.png" alt="">
                             </div>
@@ -244,7 +249,7 @@
                                 <p><img src="img/Price.svg" alt="">от 3 000 000 ₽</p>
                                 <p id="plus2" onclick="galerei_open2()" class="right">+</p>
                                 <p id="minus2" onclick="galerei_close2()" class="right">-</p>
-                                
+
                             </div>
 
                             <div class="left">
@@ -263,9 +268,11 @@
                                     <li>раздельный сан. узел</li>
                                 </ul>
                             </div>
-                            
+
                             <div class="clearfix"></div>
-                            <div class="adress"><p>Адресс: г. Белореченск, ул. Ленина, дом 22</p></div>
+                            <div class="adress">
+                                <p>Адресс: г. Белореченск, ул. Ленина, дом 22</p>
+                            </div>
                         </div>
                         <div id="hide_galer2">
                             <div class="up">
@@ -287,7 +294,7 @@
                                 <p><img src="img/Price.svg" alt="">от 3 300 000 ₽</p>
                                 <p id="plus3" onclick="galerei_open3()" class="right">+</p>
                                 <p id="minus3" onclick="galerei_close3()" class="right">-</p>
-                               
+
                             </div>
 
                             <div class="left">
@@ -306,9 +313,11 @@
                                     <li>раздельный сан. узел</li>
                                 </ul>
                             </div>
-                            
+
                             <div class="clearfix"></div>
-                            <div class="adress"><p>Адресс: г. Белореченск, ул. Ленина, дом 22</p></div>
+                            <div class="adress">
+                                <p>Адресс: г. Белореченск, ул. Ленина, дом 22</p>
+                            </div>
                         </div>
                         <div id="hide_galer3">
                             <div class="up">
@@ -330,7 +339,7 @@
                                 <p><img src="img/Price.svg" alt="">от 3 300 000 ₽</p>
                                 <p id="plus4" onclick="galerei_open4()" class="right">+</p>
                                 <p id="minus4" onclick="galerei_close4()" class="right">-</p>
-                               
+
                             </div>
 
                             <div class="left">
@@ -348,9 +357,11 @@
                                     <li>совмещенный сан. узел</li>
                                 </ul>
                             </div>
-                            
+
                             <div class="clearfix"></div>
-                            <div class="adress"><p>Адресс: г. Белореченск, ул. Ленина, дом 22</p></div>
+                            <div class="adress">
+                                <p>Адресс: г. Белореченск, ул. Ленина, дом 22</p>
+                            </div>
                         </div>
                         <div id="hide_galer4">
                             <div class="up">
@@ -369,7 +380,7 @@
                     </div>
 
                     <a class="slider__control slider__control_left" href="#" role="button"></a>
-    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+                    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
                 </div>
 
             </div>
@@ -386,7 +397,8 @@
                         <input type="text" id="telephone" placeholder="Номер телефона">
                     </div>
                     <div class="button_f1"><button>Перезвонить мне</button></div>
-                    <p class="line"><input type="checkbox" checked><span class="text">Даю согласие на обработку данных</span></p>
+                    <p class="line"><input type="checkbox" checked><span class="text">Даю согласие на обработку
+                            данных</span></p>
                 </div>
 
                 <div class="soc">
@@ -405,15 +417,18 @@
 
             </div>
             <div class="right">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.3657036478958!2d39.87757531586016!3d44.75295597909903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f0c5f3939b576b%3A0xfbfd016fdf2104ce!2z0YPQuy4g0JvQtdC90LjQvdCwLCAyLCDQkdC10LvQvtGA0LXRh9C10L3RgdC6LCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwgMzUyNjM3!5e0!3m2!1sru!2sru!4v1586963722665!5m2!1sru!2sru" width="730" height="707" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.3657036478958!2d39.87757531586016!3d44.75295597909903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f0c5f3939b576b%3A0xfbfd016fdf2104ce!2z0YPQuy4g0JvQtdC90LjQvdCwLCAyLCDQkdC10LvQvtGA0LXRh9C10L3RgdC6LCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwgMzUyNjM3!5e0!3m2!1sru!2sru!4v1586963722665!5m2!1sru!2sru"
+                    width="730" height="707" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
         </div>
     </div>
-    
+
     <footer>
         <div class="content">
             <div class="left">
-                <div class="logo">Rent&Sell</div>
+                <div class="logo">Arche<span style="color: #FFC445;">Stroy</span></div>
                 <p>Первичный рынок недвижимости</p>
                 <div class="soc">
                     <img src="img/email.svg" alt="">
@@ -437,6 +452,8 @@
         </div>
     </footer>
 
+    <script type="text/javascript" src="lightzoom/lightzoom.js"></script>
+    <script type="text/javascript">jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});</script>
     <script src="js/script.js"></script>
 </body>
 
