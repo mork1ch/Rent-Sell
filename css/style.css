@@ -311,16 +311,30 @@ header .button_f1{float: right;}
     font-weight: bold;
 }
 
-.block3 .con div{
+
+/* Общие стили для 3-х блоков */
+.block3 .con .cifr{
     display: inline-block;
 }
-.block3 .con div:first-child{
+/* Стиль для первого блока */
+.block3 .con .perv{
     margin-right: 150px;
 }
-.block3 .con div:last-child{
-    float: right;
-    margin: 0;
+.block3 .con .perv .sec{
+    width: 200px;
 }
+.block3 .con .perv .first{
+    margin-left: 30px;
+}
+.block3 .con .sec2{
+    float: right;
+    margin-right: 15%;
+}
+/* стиль для 3-тьего блока */
+.block3 .con .therd{
+    float: right;
+}
+/* Стиль для текста над цифрами */
 .block3 .con .cifr .first{
     text-align: left;
     font-size: 42px;
@@ -328,6 +342,7 @@ header .button_f1{float: right;}
     font-family: Open Sans;
     font-weight: bold;
 }
+/* стиль для цифр */
 .block3 .con .cifr h2{
     text-align: center;
     font-size: 165px;
@@ -336,22 +351,20 @@ header .button_f1{float: right;}
     font-family: Open Sans;
     font-weight: 600;
 }
+/* стиль для текста под цифрами */
 .block3 .con .cifr h4{
     text-align: center;
     font-size: 30px;
     font-family: Open Sans;
     font-weight: bold;
 }
+/* стиль нижнего текста */
 .block3 .con .cifr .sec{
     margin-left: 20px;
     text-align: center;
     font-size: 16px;
     font-family: Montserrat;
 }
-
-.block3 .con .firste{width: }
-.block3 .con .sec2  {width: 400px}
-.block3 .con .therd {width: 150px}
 
 /* block 4 */
 
@@ -572,14 +585,14 @@ header .button_f1{float: right;}
     width: 262.5px;
     height: 187px;
 }
-#hide_galer3 .up img:first-child{
+#hide_galer3 .up a:first-child img{
     width: 119px;
 }
 #hide_galer3 .low img{
     width: 261.2px;
     height: 187px;
 }
-#hide_galer3 .low img:first-child{
+#hide_galer3 .low a:first-child img{
     width: 123px;
 }
 /* 4 */
@@ -598,7 +611,7 @@ header .button_f1{float: right;}
 #hide_galer4{
     display: none;
 }
-#hide_galer4 .up img:last-child{
+#hide_galer4 .up a:last-child img{
     width: 442px;
 }
 #hide_galer4 .up img{
@@ -609,7 +622,7 @@ header .button_f1{float: right;}
     width: 193.8px;
     height: 187px;
 }
-#hide_galer4 .low img:first-child{
+#hide_galer4 .low a:first-child img{
     width: 325px;
 }
 /* div map + forma */
