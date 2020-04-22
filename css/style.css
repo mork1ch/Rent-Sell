@@ -10,6 +10,7 @@
     font-size: 27px;
     font-family: Nani;
     cursor: default;
+    text-transform: uppercase;
 }
 
 body{
@@ -138,6 +139,10 @@ header .button_f1{float: right;}
     margin-bottom: 169px;
     font-family: Montserrat;
     color: rgba(0, 0, 0, 0.35);
+}
+.contacts span{
+    margin-left: 16px;
+    font-size: 21px;
 }
 .contacts div{
     display: inline-block;
@@ -276,10 +281,10 @@ header .button_f1{float: right;}
 }
 .block2 .right ul{
     margin-bottom: 62px;
+    margin-left: 25px;
 }
 .block2 .right .button_f1 a{
     padding: 17px 81px;
-    margin-left: -25px;
 }
 
 /* block 3 */
@@ -288,7 +293,7 @@ header .button_f1{float: right;}
 }
 
 .block3 .center {
-    width: 300px;
+    width: 350px;
     margin: 0 auto 91px;
     text-align: center;
 }
@@ -310,7 +315,7 @@ header .button_f1{float: right;}
     display: inline-block;
 }
 .block3 .con div:first-child{
-    margin-right: 250px;
+    margin-right: 150px;
 }
 .block3 .con div:last-child{
     float: right;
@@ -343,13 +348,11 @@ header .button_f1{float: right;}
     font-size: 16px;
     font-family: Montserrat;
 }
-.block3 .con .firste .first{
-    margin-left: 30px;
-}
-.block3 .con .firste .sec{
-    width: 180px;
-    margin-left: 30px;
-}
+
+.block3 .con .firste{width: }
+.block3 .con .sec2  {width: 400px}
+.block3 .con .therd {width: 150px}
+
 /* block 4 */
 
 .block4{
@@ -657,6 +660,10 @@ header .button_f1{float: right;}
     margin: 70px 50px 24px 50px;
     font-size: 20px;
 }
+.map .soc span{
+    margin-left: 29px;
+    color: rgba(0, 0, 0, 0.65);
+}
 .map .soc img{
     width: 23px;
 }
@@ -700,8 +707,11 @@ footer .content .right{
     font-family: Montserrat;
     text-align: right;
 }
+footer .content .right img{
+    width: 18px;
+}
 footer .content .right span{
-    margin-left: 10px;
+    margin-left: 10px;color: rgba(255, 255, 255, 0.65);
 }
     footer .content .right p:first-child{
     margin-bottom: 20px;
@@ -714,31 +724,31 @@ footer .content .right span{
 /* Подключаю шрифты */
 @font-face {
     font-family: "Open Sans"; 
-    src: url("/fonts/opensans.ttf") format("truetype"); 
+    src: url("../fonts/opensans.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     }
 @font-face {
     font-family: "Open Sans"; 
-    src: url("/fonts/opensansbold.ttf") format("truetype"); 
+    src: url("../fonts/opensansbold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: bold; 
     } 
 @font-face {
     font-family: "Montserrat"; 
-    src: url("/fonts/Montserrat-Regular.otf") format("truetype"); 
+    src: url("../fonts/Montserrat-Regular.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
 @font-face {
     font-family: "Montserrat"; 
-    src: url("/fonts/montserrat.ttf") format("truetype"); 
+    src: url("../fonts/montserrat.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: bold; 
     } 
 @font-face {
     font-family: "Nani"; 
-    src: url("/fonts/Nunitobold.ttf") format("truetype"); 
+    src: url("../fonts/Nunitobold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: bold; 
     } 
