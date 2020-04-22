@@ -502,16 +502,16 @@ header .button_f1{float: right;}
     cursor: pointer;
 }
 .slider .home1{
-    background-image: url(/img/3.png);
+    background-image: url(../img/3.png);
 }
 .slider .home2{
-    background-image: url(/img/4.png);
+    background-image: url(../img/4.png);
 }
 .slider .home3{
-    background-image: url(/img/2.png);
+    background-image: url(../img/2.png);
 }
 .slider .home4{
-    background-image: url(/img/6.png);
+    background-image: url(../img/6.png);
 }
 
 
