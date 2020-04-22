@@ -119,6 +119,7 @@ header .button_f1{float: right;}
     display: inline-block;
     margin-right: 45px;
 }
+.odobrino div:last-child{margin: 0;}
 .odobrino h4{
     font-size: 21px;
     font-weight: 800;
