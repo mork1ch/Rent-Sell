@@ -654,7 +654,7 @@ header .button_f1{float: right;}
 .map .left .input{margin-bottom: 60px;}
 .map .left ::-webkit-input-placeholder{padding-left: 20px;font-size: 16px;}
 .map .left .form{margin: 0 0 0 50px;}
-.map .left .button_f1{margin-bottom: 40px;}
+.map .left button{margin-bottom: 40px;}
 .map .left button{
     color: #000;
     padding: 17px 44px;
@@ -662,6 +662,9 @@ header .button_f1{float: right;}
     font-size: 23px;
     transition: 0.5s ease;
     background-color: #fff;
+}
+.map .left a{
+    color: #000;
 }
 .map .left .line{display: inline-block;}
 .map .left .line span{
