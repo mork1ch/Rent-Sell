@@ -330,7 +330,10 @@ function galerei_close4() {
 
 function otpravka(){
 	var proverka = document.getElementById('checks').innerHTML;
-	var lol = proverka.value;
+	var proverka = Number.parseInt(proverka);
 	console.log(proverka);
-	console.log(lol);
+
+	if (proverka == 1){
+		alert("Вы оставили заявку")
+	}
 }
