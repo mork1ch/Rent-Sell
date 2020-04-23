@@ -615,7 +615,7 @@ header .button_f1{float: right;}
     display: none;
 }
 #hide_galer4 .up a:last-child img{
-    width: 442px;
+    width: 442.4px;
 }
 #hide_galer4 .up img{
     width: 231.3px;
@@ -740,7 +740,7 @@ footer .content .right span{
     margin-top: 36px;
 }
 
-/* Делаю увеличение фотографий при клик */
+.inivisible{display: none;}
 
 
 
